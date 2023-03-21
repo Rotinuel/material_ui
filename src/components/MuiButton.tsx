@@ -1,4 +1,4 @@
-import { Button, IconButton } from "@mui/material";
+import { Button, IconButton, ButtonGroup } from "@mui/material";
 import { Stack } from "@mui/system";
 import SendIcon from "@mui/icons-material/Send";
 
@@ -56,6 +56,13 @@ export const MuiButton = () => {
         <IconButton color="success" size="small" aria-label="button">
           <SendIcon />
         </IconButton>
+      </Stack>
+      <Stack direction='row'>
+        <ButtonGroup variant='text' size='small' color='secondary' aria-label='aligment button group'>
+            <Button>left</Button>
+            <Button>center</Button>
+            <Button>large</Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );

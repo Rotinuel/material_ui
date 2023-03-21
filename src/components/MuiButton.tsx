@@ -3,13 +3,13 @@ import { Stack } from '@mui/system'
 
 export const MuiButton = () => {
   return (
-   <Stack>
+   <Stack spacing={4}>
         <Stack spacing={2} direction='row'>
             <Button variant='text'>TEXT</Button>
             <Button variant='contained'>CONTAINED</Button>
             <Button variant='outlined'>OUTLINED</Button>
         </Stack>
-        <Stack direction='row' spacing={4}>
+        <Stack direction='row' spacing={2}>
             <Button variant='contained' color='primary'>TEXT</Button>
             <Button variant='contained' color='secondary'>secondary</Button>
             <Button variant='contained' color='error'>Error</Button>
